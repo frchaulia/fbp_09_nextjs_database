@@ -1,4 +1,4 @@
-![image](https://github.com/frchaulia/fbp_09_nextjs_database/assets/149360908/f42b9b22-9e5a-4447-b455-528c552e55c4)# Laporan Praktikum
+# Laporan Praktikum
 | MatKul | Pemrograman Berbasis Framework |
 | ---    | ---           |
 | Nama   | Faricha Aulia |
@@ -12,7 +12,7 @@
 > "Capture hasilnya dan jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?!"
 
 ![Hasil (Praktikum 1)](src/assets/01-7.png)
-Link : https://fbp-09-nextjs-database.vercel.app/
+Link Domain : https://fbp-09-nextjs-database.vercel.app/
 
 **Yang saya pelajari :** 
 Saya belajar bahwa Vercel adalah platform cloud yang memudahkan deployment aplikasi NextJS (dan juga React, Vue, Angular, dll). Dengan menghubungkan repositori GitHub, Vercel akan secara otomatis melakukan deployment ulang setiap kali terjadi perubahan pada branch utama (main). 
@@ -53,7 +53,7 @@ Saya belajar bahwa Vercel menyediakan antarmuka web yang memungkinkan kita untuk
 > "Lakukan push, kemudian perhatikan di akun dashboard Vercel project Anda. Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?"
 
 ![Hasil (Praktikum 2)](src/assets/02-9.png)
-Link : https://fbp-09-nextjs-database.vercel.app/
+Link Domain : https://fbp-09-nextjs-database.vercel.app/
 
 **Yang saya pelajari :**
 Saya belajar bahwa Vercel menyediakan fitur deployment otomatis yang sangat memudahkan proses pengembangan aplikasi. Dengan adanya fitur ini, kita tidak perlu melakukan deployment secara manual setiap kali terjadi perubahan kode.
