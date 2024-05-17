@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Laporan Praktikum
+| MatKul | Pemrograman Berbasis Framework |
+| ---    | ---           |
+| Nama   | Faricha Aulia |
+| NIM    | 2141720155    |
+| Kelas  | TI - 3I       |
 
-## Getting Started
 
-First, run the development server:
+<table><tr><td>Saya melampirkan screenshot dari setiap step yang saya lakukan pada src/assets</td></tr></table>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Pertanyaan 1 dan Jawaban
+> "Capture hasilnya dan jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?!"
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Hasil (Praktikum 1)](src/assets/01-7.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Yang saya pelajari :** 
+Saya belajar bahwa Vercel adalah platform cloud yang memudahkan deployment aplikasi NextJS (dan juga React, Vue, Angular, dll). Dengan menghubungkan repositori GitHub, Vercel akan secara otomatis melakukan deployment ulang setiap kali terjadi perubahan pada branch utama (main). 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## Pertanyaan 2 dan Jawaban
+> "Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?"
 
-To learn more about Next.js, take a look at the following resources:
+![Hasil (Praktikum 1)](src/assets/01-15.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Yang saya pelajari :**
+Saya belajar bahwa Vercel menyediakan layanan basis data PostgreSQL yang terintegrasi dengan platform cloud mereka. Dengan menggunakan layanan ini, kita tidak perlu mengonfigurasi server basis data secara manual, karena semuanya dikelola oleh Vercel. Selain itu, saya juga belajar tentang pentingnya memilih region basis data yang dekat dengan lokasi aplikasi kita untuk mengurangi latency pada setiap permintaan data.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Pertanyaan 3 dan Jawaban
+> "Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?"
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Hasil (Praktikum 1)](src/assets/01-16.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Yang saya pelajari :**
+Saya belajar bahwa skrip seed.js menggunakan SQL untuk membuat tabel-tabel yang dibutuhkan (invoices, customers, users, dan revenue) dan kemudian mengisi tabel-tabel tersebut dengan data awal yang didefinisikan di file data.js.
+
+--- 
+
+## Pertanyaan 4 dan Jawaban
+> "Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?"
+
+![Hasil pertama (Praktikum 1)](src/assets/01-17.png)
+
+**Yang saya pelajari :**
+Saya belajar bahwa Vercel menyediakan antarmuka web yang memungkinkan kita untuk menjelajahi dan berinteraksi dengan basis data PostgreSQL secara langsung dari dashboard Vercel. Saya dapat melihat struktur tabel, data yang tersimpan di dalamnya, dan bahkan menjalankan query SQL secara langsung melalui tab "Query".
+
+---
+
+## Pertanyaan 5 dan Jawaban 
+> "Lakukan push, kemudian perhatikan di akun dashboard Vercel project Anda. Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?"
+
+![Hasil (Praktikum 2)](src/assets/02-9.png)
+Link : https://fbp-09-nextjs-database.vercel.app/
+
+**Yang saya pelajari :**
+Saya belajar bahwa Vercel menyediakan fitur deployment otomatis yang sangat memudahkan proses pengembangan aplikasi. Dengan adanya fitur ini, kita tidak perlu melakukan deployment secara manual setiap kali terjadi perubahan kode.
+
+---
+
+## Pertanyaan 6 dan Jawaban 
+> "Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?"
+
+![Hasil (Praktikum 2)](src/assets/02-10.png)
+
+**Yang saya pelajari :**
+Saya belajar bahwa komponen LatestInvoices mengambil data dari database menggunakan kueri SQL yang dioptimalisasi. Kueri SQL yang digunakan hanya mengambil 5 baris data invoice terakhir yang diurutkan berdasarkan tanggal. Ini lebih efisien daripada mengambil semua data invoice dan memfilternya di sisi klien (JavaScript).
+
+----
+
+## Pertanyaan 7 dan Jawaban 
+> "Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?"
+
+![Hasil (Praktikum 2)](src/assets/02-11.png)
+
+**Yang saya pelajari :**
+Saya belajar bahwa aset gambar atau file statis lainnya harus disertakan dalam project agar dapat ditampilkan dengan benar pada aplikasi web. Selain itu, ukuran file juga perlu diperhatikan untuk mempercepat waktu loading aplikasi.
+
+---
+
+## Tugas Praktikum dan Jawaban 
+> "Perhatikan fungsi fetchCardData() (pada file src\model\query.tsx) dari soal nomor 1. Jelaskan maksud kode dan kueri yang dilakukan dalam fungsi tersebut!"
+
+![Hasil (Praktikum 2)](src/assets/02-12.png)
+
+**Yang saya pelajari :**
+Baik, saya akan menjelaskan maksud dari kode dan kueri yang dilakukan dalam fungsi fetchCardData() pada file src/model/query.tsx.
+Fungsi fetchCardData() bertujuan untuk mengambil beberapa data statistik yang akan ditampilkan pada kartu-kartu informasi di dashboard aplikasi. Data statistik yang diambil meliputi jumlah total invoice, jumlah total pelanggan, total jumlah invoice yang telah dibayar, dan total jumlah invoice yang masih pending.
